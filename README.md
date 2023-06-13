@@ -71,3 +71,100 @@ pip install -r requirements.txt
 ```sh
 uvicorn app:app
 ```
+---
+## API
+
+#### API for Authentication User
+
+##### - Use JWT (JSON Web Token) -
+
+ *1. Register*
+
+  * method: `POST`
+  * endpoint: `/users`
+  * body request:
+    | Parameter | Type     | Description                |
+    | :-------- | :------- | :------------------------- |
+    | `name` | `string` | **Required** |
+    | `email` | `string` `email` `unique` | **Required** |
+    | `password` | `string` | **Required**|
+    | `confirmation password` | `string` | **Required**|
+
+    Example: 
+    ```json
+    "name": Rinday
+    "email": rinday@gmail.com
+    "Password": rinday123
+    "confPassword" : rinday123
+    ```
+
+* body response:
+    ```json
+    {
+      "message": "Successfully created"
+    }
+    ```
+
+ *2. Log In*
+
+  * method: `POST`
+  * endpoint: `/login`
+  * body request:
+    | Parameter | Type     | Description                |
+    | :-------- | :------- | :------------------------- |
+    | `email` | `string` `email` `unique` | **Required** |
+    | `password` | `string` | **Required**|
+
+    Example: 
+    ```json
+    "email": rinday@gmail.com
+    "password": rinday123
+    ```
+
+  * body response:
+    ```json
+    {
+        "accessToken": "eyJhbGci..."
+    }
+    ```
+
+ *3. Update Access Token*
+  * method: `PUT`
+  * endpoint: `/authentications`
+  * body request:
+    | Parameter | Type     | Description                |
+    | :-------- | :------- | :------------------------- |
+    | `refreshToken` | `token` | **Required** |
+
+    Example: 
+    ```json
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsIn....."
+    ```
+
+    * body response:
+    ```json
+    "status": "success",
+    "message": "Access Token berhasil diperbarui",
+    "data": {
+      "accessToken": "eyJhbGciOiJIUzI1NiI..."
+    }
+    ```
+
+ *4. Log Out*
+  * method: `DELETE`
+  * endpoint: `/logout`
+  * body request:
+    | Parameter | Type     | Description                |
+    | :-------- | :------- | :------------------------- |
+    | `refreshToken` | `token` | **Required** |
+
+    Example: 
+    ```json
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsIn....."
+    ```
+
+    * body response:
+    ```json
+    "status": "success",
+    "message": "Authentications has been removed"
+    ```
