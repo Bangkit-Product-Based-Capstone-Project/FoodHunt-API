@@ -168,3 +168,5 @@ uvicorn app:app
     "status": "success",
     "message": "Authentications has been removed"
     ```
+---
+#### API for Article
