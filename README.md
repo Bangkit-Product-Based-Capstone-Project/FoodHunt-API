@@ -175,15 +175,20 @@ uvicorn app:app
   * method: `POST`
   * endpoint: `/api/predict`
   * body request:
-    | Key | Value     | Description                |
-    | :-------- | :------- | :------------------------- |
-    | `file` | `Select Files` | **Required** |
+    | Key | Value     |
+    | :-------- | :------- |
+    | `file` | `Select Files` |
 
 Example:
 
-* Upload some image at the `Select files`, example `bubur-manado.jpg` uploaded
+* Upload some image at the `Select Files`, example `bubur-manado.jpg` uploaded
 
  * body response:
     ```json
     "bubur-manado"
     ```
+---
+## Authors
+
+- [@Rinday12](https://github.com/Rinday12)
+- [@zirlyzkiyaa](https://github.com/zirlyzkiyaa)
