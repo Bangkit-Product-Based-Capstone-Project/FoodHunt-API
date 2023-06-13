@@ -1,0 +1,31 @@
+GET http://localhost:5000/users
+
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsIm5hbWUiOiJaaXJseSIsImVtYWlsIjoiemlyQGdtYWlsLmNvbSIsImlhdCI6MTY4NjEwOTA5MiwiZXhwIjoxNjg2MTA5MTUyfQ.CYrUSHi1mockkATDD8qHm532au_W9poMEVxHbntsEDI
+
+
+
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "Zirly",
+    "email": "zir@gmail.com",
+    "password": "0987654",
+    "confPassword": "0987654"
+
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "zir@gmail.com",
+    "password" : "0987654"
+}
+
+###
+GET http://localhost:5000/token
