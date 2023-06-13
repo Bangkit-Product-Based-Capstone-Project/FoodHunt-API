@@ -44,3 +44,11 @@ Generate JWT
 
   Repeat the sintax above to generate the second token, copy 
   output and paste to `.env-> REFRESH_TOKEN`
+---
+**For Frontend Folder**
+
+Move to directory `Frontend` with command:
+```sh
+cd ..
+cd Frontend
+```
