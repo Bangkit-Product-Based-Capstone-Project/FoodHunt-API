@@ -170,3 +170,20 @@ uvicorn app:app
     ```
 ---
 #### API for Article
+---
+#### API for Scan Feature
+  * method: `POST`
+  * endpoint: `/api/predict`
+  * body request:
+    | Key | Value     | Description                |
+    | :-------- | :------- | :------------------------- |
+    | `file` | `Select Files` | **Required** |
+
+Example:
+
+* Upload some image at the `Select files`, example `bubur-manado.jpg` uploaded
+
+ * body response:
+    ```json
+    "bubur-manado"
+    ```
