@@ -187,7 +187,7 @@ uvicorn app:app
 
 Example:
 
-* Upload some image at the `Select Files`, example `bubur-manado.jpg` uploaded
+* Upload some image at the `Select Files`, example `bubur-manado.jpg` is uploaded
 
  * body response:
     ```json
