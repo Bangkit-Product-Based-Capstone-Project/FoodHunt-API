@@ -1,0 +1,8 @@
+fastapi[all]
+pydantic
+uvicorn[standard]
+python-multipart
+numpy
+Pillow
+tensorflow
+PyJWT
