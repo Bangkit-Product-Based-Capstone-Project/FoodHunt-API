@@ -52,6 +52,12 @@ Move to directory `Frontend` with command:
 cd ..
 cd Frontend
 ```
+Running the `server` with command:
+```sh
+npm run start
+```
+This frontend is intended for CRUD in managing articles in the FoodHunt application.
+
 ---
 **For FastAPI-App Folder**
 
@@ -83,12 +89,12 @@ uvicorn app:app
   * method: `POST`
   * endpoint: `/users`
   * body request:
-    | Parameter | Type     | Description                |
-    | :-------- | :------- | :------------------------- |
-    | `name` | `string` | **Required** |
-    | `email` | `string` `email` `unique` | **Required** |
-    | `password` | `string` | **Required**|
-    | `confirmation password` | `string` | **Required**|
+    | Parameter | Type     |
+    | :-------- | :------- |
+    | `name` | `string` |
+    | `email` | `string` `email` `unique` |
+    | `password` | `string` |
+    | `confirmation password` | `string` |
 
     Example: 
     ```json
@@ -110,10 +116,10 @@ uvicorn app:app
   * method: `POST`
   * endpoint: `/login`
   * body request:
-    | Parameter | Type     | Description                |
-    | :-------- | :------- | :------------------------- |
-    | `email` | `string` `email` `unique` | **Required** |
-    | `password` | `string` | **Required**|
+    | Parameter | Type     |
+    | :-------- | :------- |
+    | `email` | `string` `email` `unique` |
+    | `password` | `string` |
 
     Example: 
     ```json
@@ -128,48 +134,48 @@ uvicorn app:app
     }
     ```
 
- *3. Update Access Token*
-  * method: `PUT`
-  * endpoint: `/authentications`
+ *3. Refresh Token*
+  * method: `GET`
+  * endpoint: `/token`
   * body request:
-    | Parameter | Type     | Description                |
-    | :-------- | :------- | :------------------------- |
-    | `refreshToken` | `token` | **Required** |
+    | Parameter | Type     |
+    | :-------- | :------- |
+    | `refreshToken` | `token` |
 
     Example: 
-    ```json
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsIn....."
-    ```
 
     * body response:
     ```json
-    "status": "success",
-    "message": "Access Token berhasil diperbarui",
-    "data": {
-      "accessToken": "eyJhbGciOiJIUzI1NiI..."
+    {
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsIn....."
     }
     ```
 
  *4. Log Out*
   * method: `DELETE`
   * endpoint: `/logout`
-  * body request:
-    | Parameter | Type     | Description                |
-    | :-------- | :------- | :------------------------- |
-    | `refreshToken` | `token` | **Required** |
 
     Example: 
-    ```json
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsIn....."
-    ```
-
     * body response:
     ```json
-    "status": "success",
-    "message": "Authentications has been removed"
+    OK
     ```
 ---
 #### API for Article
+
+*Get Article*
+
+  * method: `GET`
+  * endpoint: `/artikel`
+  * body response (example):
+    ```json
+    {
+        "id": 37,
+        "Judul": "SATE",
+        "image": "ce1c6032424ded9ffbb29bcac8fb0e92.jpg",
+        "Body": "Sate (Jawa: ꦱꦠꦺ, translit. sate) adalah makanan yang terbuat dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan  lidi tulang daun kelapa atau bambu, kemudian dipanggang menggunakan bara arang kayu. Sate disajikan dengan berbagai macam bumbu yang bergantung pada variasi resep sate.[9] Daging yang dijadikan sate antara lain daging ayam, kambing, domba
+    }
+    ```
 ---
 #### API for Scan Feature
   * method: `POST`
