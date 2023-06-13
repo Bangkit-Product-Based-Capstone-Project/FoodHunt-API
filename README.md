@@ -52,3 +52,22 @@ Move to directory `Frontend` with command:
 cd ..
 cd Frontend
 ```
+---
+**For FastAPI-App Folder**
+
+Move to directory `FastAPI-App` with command:
+```sh
+cd ..
+cd FastAPI
+```
+* Install `libraries` with command: 
+```sh
+pip install -r requirements.txt
+```
+
+* Prepare the machine learning model, this related with `FoodHuntModel` repository. But, you can use your own model. If the model in `.h5` format, place it in the same folder with `app.py` file.
+
+* Running the `server` with command:
+```sh
+uvicorn app:app
+```
