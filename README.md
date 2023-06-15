@@ -64,7 +64,7 @@ This frontend is intended for CRUD in managing articles in the FoodHunt applicat
 Move to directory `FastAPI-App` with command:
 ```sh
 cd ..
-cd FastAPI
+cd FastAPI-App
 ```
 * Install `libraries` with command: 
 ```sh
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 * Running the `server` with command:
 ```sh
-uvicorn app:app
+KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
 ```
 ---
 ## API
