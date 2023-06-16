@@ -239,7 +239,7 @@ We have deployed the API in our project using the Cloud Run service on the Googl
 ![Cloud SQL](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/5ceeba60-3aa7-42bc-8eda-10ed0c695eaf)
 
 * Deployment
-![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/7e14a17c-ccd7-4045-8895-5f4c53289f90)
+![Cloud Run - Small](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/55534e04-55e6-4d88-8623-059b92b70e8b)
 
 ---
 ## Authors
