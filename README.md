@@ -199,7 +199,7 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
 
 Example:
  * At `authorization` tab, choose type `Bearer Token` and input the `Key Access Token`
-   ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/27b8e17f-66e8-43f7-97c8-0173a8d09b01)
+   ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/b31cacfb-6881-4d75-b781-a9c642173a32)
 
  * At, `body` tab, upload some image at the `Select Files`, example `bubur-manado.jpg` is uploaded
 
@@ -207,7 +207,7 @@ Example:
     ```json
     "bubur-manado"
     ```
-  ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/0076ff88-e4e4-43e5-afff-5ac15505773e)
+  ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/32265a89-d60e-4a2e-8de7-4a4312ce4aa2)
 
 ---
 ## Authors
