@@ -216,6 +216,14 @@ Example:
   ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/32265a89-d60e-4a2e-8de7-4a4312ce4aa2)
 
 ---
+## 🔗 Links
+
+We have deployed the API in our project using the Cloud Run service on the Google Cloud Platform. Here are three links to the results of the deployment:
+* Backend URL: https://backend-l6hkbss2ja-et.a.run.app
+* Frontend URL: https://frontend-l6hkbss2ja-et.a.run.app
+* FastAPI-App URL: https://predict-image-l6hkbss2ja-et.a.run.app
+
+---
 ## Authors
 
 - [@Rinday12](https://github.com/Rinday12)
