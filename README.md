@@ -232,6 +232,15 @@ We have deployed the API in our project using the Cloud Run service on the Googl
 * FastAPI-App URL: https://predict-image-l6hkbss2ja-et.a.run.app
 
 ---
+## Cloud Services Used
+* Database
+![Google Cloud Storage](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/f1c514de-9c6e-4504-b9ed-1a899b8f47b8)
+![Cloud SQL](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/5ceeba60-3aa7-42bc-8eda-10ed0c695eaf)
+
+* Deployment
+<img width="512" alt="cloud run" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/c3e5f43d-b895-412f-805c-9bd7c0d0b1c8">
+
+---
 ## Authors
 
 - [@Rinday12](https://github.com/Rinday12)
