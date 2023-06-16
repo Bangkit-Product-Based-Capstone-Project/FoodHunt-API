@@ -207,7 +207,7 @@ Example:
  * At `authorization` tab, choose type `Bearer Token` and input the `Key Access Token`
    ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/d96c7879-f4e2-4567-85e5-6b2c80cb6ae3)
 
- * At, `body` tab, upload some image at the `Select Files`, example `bubur-manado.jpg` is uploaded
+ * At `body` tab, upload some image at the `Select Files`, example `bubur-manado.jpg` is uploaded
 
  * body response:
     ```json
