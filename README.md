@@ -180,19 +180,23 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
 #### API for Scan Feature
   * method: `POST`
   * endpoint: `/api/predict`
-  * body request:
+  * body request: `form-data`
     | Key | Value     |
     | :-------- | :------- |
     | `file` | `Select Files` |
 
 Example:
+ * At `authorization` tab, choose type `Bearer Token` and input the `Key Access Token`
+   ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/27b8e17f-66e8-43f7-97c8-0173a8d09b01)
 
-* Upload some image at the `Select Files`, example `bubur-manado.jpg` is uploaded
+ * At, `body` tab, upload some image at the `Select Files`, example `bubur-manado.jpg` is uploaded
 
  * body response:
     ```json
     "bubur-manado"
     ```
+  ![image](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/0076ff88-e4e4-43e5-afff-5ac15505773e)
+
 ---
 ## Authors
 
