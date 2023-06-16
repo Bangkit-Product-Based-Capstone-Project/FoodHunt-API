@@ -153,7 +153,7 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
     * body response:
     ```json
     {
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsIn....."
+      "accessToken": "eyJhbGciOiJIUzI1NiIsIn....."
     }
     ```
     <img width="677" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/204a0d6c-896c-4be1-9ada-920a65ec10c3">
