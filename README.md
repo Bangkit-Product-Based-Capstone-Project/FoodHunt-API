@@ -95,14 +95,14 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
     | `name` | `string` |
     | `email` | `string` `email` `unique` |
     | `password` | `string` |
-    | `confirmation password` | `string` |
+    | `confPassword` | `string` |
 
     Example:
     ```json
     {
     "name": "Rinday",
     "email": "rinday@gmail.com",
-    "Password": "rinday123",
+    "password": "rinday123",
     "confPassword" : "rinday123"
     }
     ```
