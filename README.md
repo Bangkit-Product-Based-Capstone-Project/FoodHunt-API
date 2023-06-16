@@ -42,7 +42,7 @@ Generate JWT
   ```
   Copy the output and paste to the `.env-> ACCESS_TOkEN`
 
-  Repeat the sintax above to generate the second token, copy 
+  Repeat the syntax above to generate the second token, copy 
   output and paste to `.env-> REFRESH_TOKEN`
 ---
 **For Frontend Folder**
