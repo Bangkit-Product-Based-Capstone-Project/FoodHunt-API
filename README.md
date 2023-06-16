@@ -179,12 +179,18 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
   * endpoint: `/artikel`
   * body response (example):
     ```json
-    {
-        "id": 37,
-        "Judul": "SATE",
-        "image": "ce1c6032424ded9ffbb29bcac8fb0e92.jpg",
-        "Body": "Sate (Jawa: ꦱꦠꦺ, translit. sate) adalah makanan yang terbuat dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan  lidi tulang daun kelapa atau bambu, kemudian dipanggang menggunakan bara arang kayu. Sate disajikan dengan berbagai macam bumbu yang bergantung pada variasi resep sate.[9] Daging yang dijadikan sate antara lain daging ayam, kambing, domba
-    }
+    [
+        {
+            "id": 37,
+            "Judul": "SATE",
+            "image": "ce1c6032424ded9ffbb29bcac8fb0e92.jpg",
+            "Body": "Sate (Jawa: ꦱꦠꦺ, translit. sate) adalah makanan yang terbuat dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan lidi tulang daun kelapa atau bambu, kemudian dipanggang menggunakan bara arang kayu. Sate disajikan dengan berbagai macam bumbu yang bergantung pada variasi resep sate.[9] Daging yang dijadikan sate antara lain daging ayam, kambing, domba, sapi, babi, kelinci, kuda, dan lain-lain.\r\n\r\nSate diketahui berasal dari Jawa, Indonesia, dan dapat ditemukan di mana saja di Indonesia dan telah dianggap sebagai salah satu masakan nasional Indonesia.[10] Sate juga populer di negara-negara Asia Tenggara lainnya seperti Malaysia, Singapura, Filipina, dan Thailand. Sate juga populer di Belanda karena dipengaruhi masakan Indonesia yang dulu merupakan koloninya.\r\n\r\nSate adalah hidangan yang sangat populer di Indonesia, dengan berbagai suku bangsa dan tradisi seni memasak (lihat Masakan Indonesia) telah menghasilkan berbagai jenis sate. Di Indonesia, sate dapat diperoleh dari pedagang sate keliling, pedagang kaki lima di warung tepi jalan, hingga di restoran kelas atas, serta kerap disajikan dalam pesta formal dan non-formal. Resep dan cara pembuatan sate beraneka ragam bergantung variasi dan resep masing-masing di tiap daerah. Hampir segala jenis daging dapat dibuat sate. Sebagai negara asal mula sate, Indonesia memiliki variasi resep sate yang banyak.\r\n\r\nBiasanya sate diberi saus, bisa berupa bumbu kecap, bumbu kacang, atau yang lainnya, biasanya disertai acar dari irisan bawang merah, mentimun, dan cabai rawit. Sate dimakan dengan nasi hangat atau bisa juga disajikan dengan lontong atau kupat ataupun hanya sate saja.\r\n\r\nHidangan internasional yang mirip sate antara lain yakitori dari Jepang, shish kebab dari Turki, shashlik dari Kaukasia, chuanr dari Tiongkok, dan sosatie dari Afrika Selatan. Sate terdaftar sebagai peringkat ke-14 dalam World's 50 most delicious foods (50 Hidangan Paling Lezat di Dunia) melalui jajak pendapat pembaca yang digelar oleh CNN Go pada 2011.[11]\r\n\r\n",
+            "url": "http://localhost:5000/images/ce1c6032424ded9ffbb29bcac8fb0e92.jpg",
+            "createdAt": "2023-06-12T04:05:52.000Z",
+            "updatedAt": "2023-06-12T04:05:52.000Z"
+        },
+        ...
+      ]
     ```
     <img width="633" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/b131c1b1-7bbd-497c-bcc6-ab4e9a747488">
 
