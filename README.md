@@ -1,5 +1,13 @@
 # FoodHunt API
 
+## User Story and Cloud Architecture
+* FoodHunt User Story
+![Foodhunt Architecture-Page-3 drawio](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/2b0d8ee5-604b-4f47-b1e9-947ac6fbbeac)
+
+* FoodHunt Cloud Architecture
+![Foodhunt Architecture-Page-4 drawio (1)](https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/99418260/0d477049-f4ad-4ef6-8871-35848d1bc846)
+
+---
 ## Get Started
 Clone `repository` with command: 
 ```bash
