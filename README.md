@@ -32,7 +32,7 @@ npm run start
 ```
 Generate JWT
 
-* Token Access & Refresh Token
+* Access Token & Refresh Token
   
   In terminal/cmd type `node` then enter.
   
