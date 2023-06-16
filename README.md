@@ -97,12 +97,14 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
     | `password` | `string` |
     | `confirmation password` | `string` |
 
-    Example: 
+    Example:
     ```json
+    {
     "name": "Rinday",
     "email": "rinday@gmail.com",
     "Password": "rinday123",
     "confPassword" : "rinday123"
+    }
     ```
 
 
@@ -127,8 +129,10 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
 
     Example: 
     ```json
+    {
     "email": "rinday@gmail.com",
     "password": "rinday123"
+    }
     ```
 
   * body response:
