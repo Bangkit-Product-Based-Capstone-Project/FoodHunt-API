@@ -57,6 +57,7 @@ Running the `server` with command:
 npm run start
 ```
 This frontend is intended for CRUD in managing articles in the FoodHunt application.
+<img width="946" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/c8324cf3-b037-489c-bed1-2ef6bb3e3456">
 
 ---
 **For FastAPI-App Folder**
@@ -98,11 +99,12 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
 
     Example: 
     ```json
-    "name": Rinday
-    "email": rinday@gmail.com
-    "Password": rinday123
-    "confPassword" : rinday123
+    "name": "Rinday",
+    "email": "rinday@gmail.com",
+    "Password": "rinday123",
+    "confPassword" : "rinday123"
     ```
+
 
 * body response:
     ```json
@@ -110,6 +112,8 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
       "message": "Successfully created"
     }
     ```
+    <img width="646" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/3b024be8-4782-498c-9636-5b21ec8d6ab3">
+
 
  *2. Log In*
 
@@ -123,8 +127,8 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
 
     Example: 
     ```json
-    "email": rinday@gmail.com
-    "password": rinday123
+    "email": "rinday@gmail.com",
+    "password": "rinday123"
     ```
 
   * body response:
@@ -133,14 +137,12 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
         "accessToken": "eyJhbGci..."
     }
     ```
+    <img width="645" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/a86789b0-98a2-438d-9e0f-f67c66a8a336">
+
 
  *3. Refresh Token*
   * method: `GET`
   * endpoint: `/token`
-  * body request:
-    | Parameter | Type     |
-    | :-------- | :------- |
-    | `refreshToken` | `token` |
 
     Example: 
 
@@ -150,6 +152,8 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
       "refreshToken": "eyJhbGciOiJIUzI1NiIsIn....."
     }
     ```
+    <img width="677" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/204a0d6c-896c-4be1-9ada-920a65ec10c3">
+
 
  *4. Log Out*
   * method: `DELETE`
@@ -160,6 +164,8 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
     ```json
     OK
     ```
+    <img width="677" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/2497714a-2eec-4f3e-a3b3-bd5f53167100">
+
 ---
 #### API for Article
 
@@ -176,6 +182,8 @@ KEY_ACCESS_TOKEN=<YOUR KEY ACCESS TOKEN> uvicorn app:app
         "Body": "Sate (Jawa: ꦱꦠꦺ, translit. sate) adalah makanan yang terbuat dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan  lidi tulang daun kelapa atau bambu, kemudian dipanggang menggunakan bara arang kayu. Sate disajikan dengan berbagai macam bumbu yang bergantung pada variasi resep sate.[9] Daging yang dijadikan sate antara lain daging ayam, kambing, domba
     }
     ```
+    <img width="633" alt="image" src="https://github.com/Bangkit-Product-Based-Capstone-Project/FoodHunt-API/assets/87255617/b131c1b1-7bbd-497c-bcc6-ab4e9a747488">
+
 ---
 #### API for Scan Feature
   * method: `POST`
